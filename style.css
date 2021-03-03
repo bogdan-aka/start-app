@@ -1,0 +1,121 @@
+.header{
+    background-image: url(Dead-Space-8.jpg);
+    padding: 200px 0;
+    text-align: right;
+    color: honeydew;
+}
+.menu{
+    text-align: center;
+    margin: 20px 0;
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px 40px;
+color: black;
+}
+a:hover{
+    background-color: grey;
+    color:honeydew
+}
+h1{
+    padding-right: 50px;
+}
+.header button{
+    margin-right: 170px;
+}
+.text{
+    display: inline-block;
+    width: 70%;
+}
+.zombi{
+    width: 200px;
+    margin-bottom: 100px;
+}
+.aboutcompany{
+    text-align: center;
+}    
+.cart{
+    border: 1px solid gray;
+    padding: 15px;
+    display: inline-block;
+    width: 22%;
+    min-width: 250px;
+}
+.cart img {
+    width: 90%;
+    height: 200px;
+}
+.name{
+    font-size: 30px;
+}
+.doljnost{
+    color: gray;
+}
+.team{
+    text-align: center;
+}
+.letters{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    background-color: darkcyan;
+    border:none;
+    color: white;
+}
+
+@media (max-width: 600px){
+    a{
+        display: block;
+        font-size: 30px;
+    }
+
+}
+.tarifs{
+    background-color: gray;
+    padding: 50px;
+}
+.cart-tarif{
+    background-color:whitesmoke;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 1%;
+}
+.name-tarif{
+    background-color: black;
+    color: whitesmoke;
+}
+.tarifs p{
+margin-top: 50px;
+}
+.vip{
+    background-color:whitesmoke;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+}
+.vip p{
+    margin-bottom:25px;
+    margin-top: 25px;
+}
+.vip .name-tarif{
+    background-color: rgb(179, 182, 1);
+    color: black;
+}
+.feetback p{
+    display: inline-block;
+}
+.Feetback-button{
+    margin-left: 45%;
+    background-color: black;
+    color: honeydew;
+    border-radius: 13px;
+    padding: 10px;
+}
+input{
+    margin:20px;
+    width: 90%;
+}
